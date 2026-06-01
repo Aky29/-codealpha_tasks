@@ -7,3 +7,4 @@ for _ in range(5):
         else:
             print("_",end = "")
     print("")
+print("game finished")
