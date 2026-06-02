@@ -30,19 +30,20 @@ Key Concepts Used: while loops, conditional logic (if-elif-else), indexing, stri
 
 How It Works: The program prompts for a secret word, loops through user guesses, and compares characters element-by-element to provide partial feedback (using underscores for unmatched letters) while preventing index overflows.
 
-📧 Task 2: Automated Email Extractor
-Description: A text-parsing utility that scans raw inputs to find and extract all valid email addresses instantly.
 
-Key Concepts Used: Regular Expressions (re module), data collection, and string parsing.
-
-How It Works: Uses a rigorous regex pattern ([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}) to isolate valid emails from text blocks and outputs them in a clean, user-friendly listed layout.
-
-📈 Task 3: Stock Investment Tracker
+📈 Task 2: Stock Investment Tracker
 Description: A data tracking system that maps user stock inputs against a database dictionary of prices, calculates total investments, and exports the metrics to a spreadsheet.
 
 Key Concepts Used: Dictionary mapping, persistent file manipulation, CSV Reading/Writing (csv.DictWriter, csv.DictReader).
 
 How It Works: Prompts users for stock tickers and volumes, computes cost calculations on the fly, aggregates records into a structured list, and flushes them safely into an Investment.csv file upon completion.
+
+📧 Task 3: Automated Email Extractor
+Description: A text-parsing utility that scans raw inputs to find and extract all valid email addresses instantly.
+
+Key Concepts Used: Regular Expressions (re module), data collection, and string parsing.
+
+How It Works: Uses a rigorous regex pattern ([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}) to isolate valid emails from text blocks and outputs them in a clean, user-friendly listed layout.
 
 🚀 How to Run the Code Locally
 Clone the Repository:
