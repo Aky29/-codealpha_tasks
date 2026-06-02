@@ -8,6 +8,7 @@ Welcome to my repository for the **CodeAlpha Python Programming Internship** (Ju
 
 Each task is self-contained within its own directory, featuring independent logic and clean data handling:
 
+```text
 Aky29-CodeAlpha_Python_Programming/
 │
 ├── Task_1_Hangman_Game/
