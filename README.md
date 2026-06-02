@@ -20,6 +20,8 @@ Aky29-CodeAlpha_Python_Programming/
 └── Task_3_Stock_Tracker/
     ├── stock_tracker.py
     └── Investment.csv
+```
+
 🛠️ Project Summaries
 🎮 Task 1: Word Guessing Game (Hangman Style)
 Description: An interactive terminal game where a user attempts to guess a secret word within 5 attempts.
