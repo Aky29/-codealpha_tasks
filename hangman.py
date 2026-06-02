@@ -1,6 +1,8 @@
 secret_word = input("Enter the secret word : ")
+
 guesses = 5
 won = False
+
 while guesses >= 0:
     user_guess = input("Guess the word : ").lower()
     if user_guess == secret_word:
@@ -14,4 +16,5 @@ while guesses >= 0:
             print("_",end = "")
     print("")
     guesses-=1
+
 print("You Won") if won  else print("You Lose")
